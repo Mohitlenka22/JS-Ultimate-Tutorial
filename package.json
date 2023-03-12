@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon tut_04.mjs",
+    "dev": "nodemon tut_08.mjs",
     "lint": "eslint tut_04.mjs"
   },
   "keywords": [],
