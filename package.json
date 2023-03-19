@@ -2,12 +2,12 @@
   "name": "jstutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "tut_03.mjs",
+  "main": "tut_10.mjs",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon tut_08.mjs",
-    "lint": "eslint tut_04.mjs"
+    "dev": "nodemon tut_10.mjs",
+    "lint": "eslint tut_10.mjs"
   },
   "keywords": [],
   "author": "",
