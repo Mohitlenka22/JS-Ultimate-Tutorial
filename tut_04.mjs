@@ -38,3 +38,26 @@ Details["friend"] = "sandeep"; // We are just changing object but not (Details v
 Details["Name"] = "mohit";
 console.table(Details);
 
+//Data Structures Set, Map
+let arr = [1, 3, 4, 4, 2, 3, 2, 2];
+arr = [...new Set(arr)]; //Set doesn't contains duplicate elements
+console.log(arr);
+
+let map = new Map();
+map.set("a", 1);
+map.set("b", 2);
+console.log(map.get("a"));
+console.log(map.get("b"));
+console.log(map.size);
+console.log(map);
+
+let freq = {};
+let n = [1, 2, 1, 1, 3, 2, 2, 3, 4, 3, 1];
+n.forEach((el) => {
+    if (freq[el] >= 1)
+        freq[el]++;
+    else
+        freq[el] = 1;
+});
+console.log(freq);
+
