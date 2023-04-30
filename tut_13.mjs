@@ -30,9 +30,11 @@ In  javaScript there is a global object 'window'.
 const video = document.getElementById("video");
 const script = document.querySelector("script");
 console.log(script.src);
+console.log(navigator.mediaDevices)
 
 try {
   const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+  // console.log(typeof stream)
   video.srcObject = stream;
   video.play();
   console.log(stream);

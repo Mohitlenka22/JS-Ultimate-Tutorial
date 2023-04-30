@@ -23,5 +23,5 @@ setInterval(() => {
   let Hours = date.getHours();
   let minutes = date.getMinutes();
   let seconds = date.getSeconds();
-  time.innerHTML = `<i>${Hours}:${minutes}:${seconds}</i>`;
+  time.innerHTML = `<i style="background:cyan">${Hours}:${minutes}:${seconds}</i>`;
 }, 1000);
